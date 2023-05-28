@@ -158,7 +158,7 @@ class midScene extends Phaser.Scene {
             },
         loop: false
         });
-
+ 
         this.time.addEvent({
             delay: 3000, // time to wait before showing image3 (in milliseconds)
             callback: function() {
