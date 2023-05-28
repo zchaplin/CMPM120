@@ -129,7 +129,7 @@ class midScene extends Phaser.Scene {
         this.load.audio('loud', 'assets/Loud.wav');
         this.load.image('ball', 'assets/BALL.png');
         this.load.image('Clock1', 'assets/Clock1.png');
-        this.load.image('Clock2', 'assets/Clock2.png');
+        this.load.image('CLock2', 'assets/CLock2.png');
         this.load.image('Clock3', 'assets/Clock3.png');
     }
 
@@ -147,7 +147,7 @@ class midScene extends Phaser.Scene {
         });
         var sound1 = this.sound.add('loud');
         var image1 = this.add.image(500, 300, 'Clock1');
-        var image2 = this.add.image(600, 300, 'Clock2').setVisible(false);
+        var image2 = this.add.image(600, 300, 'CLock2').setVisible(false);
         var image3 = this.add.image(700, 400, 'Clock3').setVisible(false);
 
         this.time.addEvent({
